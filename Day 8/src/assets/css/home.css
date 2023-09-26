@@ -1,0 +1,241 @@
+.home {
+    display:flex;
+  }
+  .dashboard {
+    flex: 0 0 240px; 
+    background-color: #c39c00;
+    color: #fff;
+    padding: 20px;
+    height:auto;
+}
+ul {
+    list-style-type: none;
+}
+.dashboard-text{
+    color: #ffffff;
+    text-decoration:solid;
+}
+
+.dashboard-textx{
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.14); /* Add a subtle box shadow */
+
+    text-decoration:solid;
+}
+.dashboard-text:hover{
+    background-color: #15273b;
+}
+.dashboard-text2:hover{
+    background-color: #4273ab;
+}
+.dashboard-text2{
+     color: #ffffff;
+    text-decoration: none;
+    margin-top: 225%;
+}
+/* UsersList.css */
+.users-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.user-card {
+  background-color: #c39c00c9;
+  border: 1px solid #ffe600;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Add more styles as needed */
+
+li {
+    display: flex;
+    padding: 10px;
+    font-family: Inter,sans-serif;
+    font-weight: 700;
+  }
+  .dashboard h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    flex-grow: 1; 
+    padding: 20px;
+    background-image: url("../images/12345.jpg");
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+
+  }
+  
+  header h1 {
+    font-size: 28px;
+    color: #000000;
+  }
+  
+  .features {
+      display: flex;
+      justify-content: space-around;
+    }
+  
+  .feature {
+    flex: 0 1 calc(33.33% - 20px);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f753;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .feature p {
+    font-size: 16px;
+    color: #666;
+}
+  
+.profile-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(255, 225, 0, 0.264);
+
+  }
+  
+  .profile-table td {
+    padding: 10px;
+    border: 1px solid #ffff00;
+  }
+  
+  .profile-table td:first-child {
+    font-weight: bold;
+    background-color: #c39c00;
+    width: 150px;
+  }
+  
+  .profile-table td:last-child {
+    text-align: left;
+  }
+  
+  /* You can add more CSS styles to customize the appearance as needed */
+  /* EmailSubscribers.css */
+.email-subscribers {
+  margin-top: 20px;
+}
+
+.email {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #c39c0034;
+  box-shadow: 0 0 10px rgba(255, 238, 0, 0.422);
+}
+
+.email th {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ffd500;
+}
+.email td {
+  padding: 12px 15px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid #ffd500;
+}
+
+.email th {
+  background-color: #c39c00;
+}
+
+.email tr:hover {
+  background-color: #ffffff58;
+}
+/* campaign.css */
+.campaign-panel {
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.campaign-heading {
+  color: #eba500;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.campaign-table {
+  box-shadow: 0 0 10px rgba(255, 221, 0, 0.322);
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.campaign-table-header {
+  background-color: #c39c00;
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.campaign-table td {
+  border: 1px solid #ffdd00;
+  padding: 10px;
+  color: white;
+}
+
+.campaign-edit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.campaign-delete-button {
+  background-color: #541a1a;
+  color: #a37a7a;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.edit-icon {
+  color: #007bff; /* Edit button color */
+  font-size: 20px; /* Adjust the icon size */
+  margin-right: 0px; /* Add margin if needed */
+}
+
+.delete-icon {
+  color: #dc3545; /* Delete button color */
+  font-size: 20px; /* Adjust the icon size */
+  margin-right: 0px; /* Add margin if needed */
+}
+.campaign-action-button:hover .edit-icon {
+  color: #0056b3; /* Change color on hover for edit button */
+}
+
+.campaign-action-button:hover .delete-icon:hover {
+  color: #c82333; /* Change color on hover for delete button */
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+
+
+
+
+
